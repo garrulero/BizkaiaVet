@@ -1,11 +1,11 @@
-import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, MapPin, Phone, Mail } from "lucide-react";
 import Link from "next/link";
 import Logo from "./logo";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.396942784381!2d-2.849969684513369!3d43.34001997913327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4705b3b54495%3A0x8aa1115c9bc605e4!2sCl%C3%ADnica%20veterinaria%20Bizkaia%20Albaitaritza%20klinika!5e0!3m2!1ses!2ses!4v1620308820000";
-  const googleMapsLink = "https://www.google.com/maps/place/Cl%C3%ADnica+veterinaria+Bizkaia+Albaitaritza+klinika/data=!4m2!3m1!1s0xd4e4705b3b54495:0x8aa1115c9bc605e4?sa=X&ved=1t:8290&hl=es&ictx=111";
+  const googleMapsLink = "https://www.google.com/maps/place//data=!4m2!3m1!1s0xd4e4705b3b54495:0x8aa1115c9bc605e4?sa=X&ved=1t:8290&hl=es&ictx=111";
 
   return (
     <footer id="contacto" className="bg-secondary/50 font-body">
@@ -19,10 +19,10 @@ const Footer = () => {
             <p className="text-muted-foreground">Tu clínica veterinaria de confianza en Bizkaia. Cuidamos de los que más quieres.</p>
             <div className="flex space-x-4">
                 <Button variant="ghost" size="icon" asChild>
-                    <Link href="https://www.facebook.com/Bizkaiavet" target="_blank"><Facebook className="h-5 w-5" /></Link>
+                    <Link href="https://www.facebook.com/people/Cl%C3%ADnica-veterinaria-Bizkaia/61562019616101/" target="_blank"><Facebook className="h-5 w-5" /></Link>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                    <Link href="https://www.instagram.com/bizkaiavet_klinika" target="_blank"><Instagram className="h-5 w-5" /></Link>
+                    <Link href="https://www.instagram.com/bizkaiavet/" target="_blank"><Instagram className="h-5 w-5" /></Link>
                 </Button>
             </div>
           </div>
