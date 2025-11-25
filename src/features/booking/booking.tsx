@@ -31,7 +31,7 @@ export default function Booking() {
   });
 
   const onSubmit = (values: BookingValues) => {
-    const phoneNumber = "34000000000"; // Reemplaza con el número de teléfono de la clínica sin el "+" o "00"
+    const phoneNumber = "34946155046"; 
     const message = `¡Hola! Me gustaría solicitar una cita.
 - Mi nombre: ${values.name}
 - Nombre de mi mascota: ${values.petName}

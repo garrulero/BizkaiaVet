@@ -16,13 +16,10 @@ const Footer = () => {
             <p className="text-muted-foreground">Tu clínica veterinaria de confianza en Bizkaia. Cuidamos de los que más quieres.</p>
             <div className="flex space-x-4">
                 <Button variant="ghost" size="icon" asChild>
-                    <Link href="#"><Facebook className="h-5 w-5" /></Link>
+                    <Link href="https://www.facebook.com/Bizkaiavet" target="_blank"><Facebook className="h-5 w-5" /></Link>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                    <Link href="#"><Instagram className="h-5 w-5" /></Link>
-                </Button>
-                <Button variant="ghost" size="icon" asChild>
-                    <Link href="#"><Twitter className="h-5 w-5" /></Link>
+                    <Link href="https://www.instagram.com/bizkaiavet_klinika" target="_blank"><Instagram className="h-5 w-5" /></Link>
                 </Button>
             </div>
           </div>
@@ -40,11 +37,11 @@ const Footer = () => {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-1 shrink-0 text-primary" />
-                <span>Calle Ficticia 123, 48001 Bilbao, Bizkaia</span>
+                <span>Gamiz Bidea, 13, 48100 Mungia, Bizkaia</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 shrink-0 text-primary" />
-                <a href="tel:+34000000000" className="hover:text-primary">+34 000 000 000</a>
+                <a href="tel:+34946155046" className="hover:text-primary">946 15 50 46</a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 shrink-0 text-primary" />
@@ -55,8 +52,8 @@ const Footer = () => {
            <div>
             <h3 className="font-headline text-lg font-semibold mb-4">Horario</h3>
             <ul className="space-y-2 text-muted-foreground">
-                <li><strong>Lunes - Viernes:</strong> 9:00 - 20:00</li>
-                <li><strong>Sábados:</strong> 10:00 - 14:00</li>
+                <li><strong>Lunes - Viernes:</strong> 9:30 - 19:00</li>
+                <li><strong>Sábados:</strong> 10:00 - 13:30</li>
                 <li><strong>Domingos:</strong> Cerrado</li>
             </ul>
           </div>

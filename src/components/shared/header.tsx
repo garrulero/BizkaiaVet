@@ -78,7 +78,7 @@ export default function Header() {
         
         <div className="flex flex-1 items-center justify-end space-x-2">
            <Button asChild>
-            <Link href="tel:+34000000000">
+            <Link href="tel:+34946155046">
               <Phone className="mr-2 h-4 w-4" />
               Llámanos
             </Link>
