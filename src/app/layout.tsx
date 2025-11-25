@@ -1,8 +1,8 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { cn } from "@/lib/utils";
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import Header from '@/components/shared/header';
+import Footer from '@/components/shared/footer';
 import { Toaster } from '@/components/ui/toaster';
 import { Nunito, Open_Sans } from 'next/font/google';
 
