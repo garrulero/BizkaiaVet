@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A happy dog with its owner in a sunny park.",
+      "imageUrl": "https://images.unsplash.com/photo-1597806999047-9456837df754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoYXBweSUyMGRvZ3xlbnwwfHx8fDE3NjM5NzQyMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy dog"
+    },
+    {
+      "id": "vet-ana",
+      "description": "Portrait of Dr. Ana, smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2Mzk1OTYyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "vet-carlos",
+      "description": "Portrait of Dr. Carlos, looking friendly.",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0MDQzMDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "vet-lucia",
+      "description": "Portrait of Lucia, veterinary assistant.",
+      "imageUrl": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman professional"
+    },
+    {
+      "id": "pet-toby",
+      "description": "A golden retriever playing.",
+      "imageUrl": "https://images.unsplash.com/photo-1523480717984-24cba35ae1ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnb2xkZW4lMjByZXRyaWV2ZXJ8ZW58MHx8fHwxNzY0MDY5NjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "golden retriever"
+    },
+    {
+      "id": "pet-misu",
+      "description": "A siamese cat looking at the camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1568152950566-c1bf43f4ab28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaWFtZXNlJTIwY2F0fGVufDB8fHx8MTc2Mzk1OTk4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "siamese cat"
+    },
+    {
+      "id": "pet-kiwi",
+      "description": "A small green parrot.",
+      "imageUrl": "https://images.unsplash.com/photo-1512819432727-dbcb57a06f13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwYXJyb3R8ZW58MHx8fHwxNzY0MDEyODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parrot"
+    },
+    {
+      "id": "service-general",
+      "description": "A veterinarian checking a dog with a stethoscope.",
+      "imageUrl": "https://images.unsplash.com/photo-1644675443401-ea4c14bad0e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZXRlcmluYXJpYW4lMjBkb2d8ZW58MHx8fHwxNzY0MDQzNzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "veterinarian dog"
+    },
+    {
+      "id": "service-surgery",
+      "description": "A surgical room in a veterinary clinic.",
+      "imageUrl": "https://images.unsplash.com/photo-1640876777002-badf6aee5bcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcGVyYXRpbmclMjByb29tfGVufDB8fHx8MTc2NDAwMDc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "operating room"
+    },
+    {
+      "id": "service-dermatology",
+      "description": "Close up of a dog's skin and fur.",
+      "imageUrl": "https://images.unsplash.com/photo-1591552202899-a23b36ab4bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkb2clMjBmdXJ8ZW58MHx8fHwxNzY0MDY5ODUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog fur"
+    }
+  ]
 }
