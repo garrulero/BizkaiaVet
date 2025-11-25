@@ -6,8 +6,8 @@ import Footer from '@/components/footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'BizkaiaVet - Cuidando de tu Mascota',
-  description: 'Clínica veterinaria en Bizkaia. Ofrecemos servicios de urgencias 24h, cirugía, dermatología y más. Pide tu cita online.',
+  title: 'Clínica Veterinaria en Mungia, Bizkaia | Urgencias y Especialidades | BizkaiaVet',
+  description: 'Clínica veterinaria integral en Mungia (Bizkaia) con urgencias 24h. Especialistas en cirugía por laparoscopia, medicina preventiva y animales exóticos.',
 };
 
 export default function RootLayout({

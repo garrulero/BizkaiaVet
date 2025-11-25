@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Stethoscope, HeartPulse, Microscope, Syringe } from "lucide-react";
+import { Stethoscope, HeartPulse, Microscope, Syringe, Rabbit } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 interface Service {
@@ -12,23 +12,28 @@ const services: Service[] = [
   {
     icon: Stethoscope,
     title: "Medicina Preventiva",
-    description: "Planes de salud, revisiones y vacunaciones para mantener a tu mascota sana y feliz durante toda su vida.",
+    description: "Planes de salud, revisiones y vacunación (antirrábica obligatoria en Euskadi) para mantener a tu mascota sana y feliz.",
   },
   {
     icon: HeartPulse,
-    title: "Cirugía General",
-    description: "Intervenciones quirúrgicas realizadas con la última tecnología y un equipo experto para una recuperación rápida.",
+    title: "Cirugía (Laparoscopia)",
+    description: "Realizamos cirugía avanzada con laparoscopia: mínima incisión, menos dolor y una recuperación mucho más rápida para tu mascota.",
   },
   {
     icon: Microscope,
-    title: "Dermatología",
-    description: "Diagnóstico y tratamiento de alergias, infecciones y otros problemas de la piel que afectan a tu compañero.",
+    title: "Dermatología y Alergias",
+    description: "Diagnóstico y tratamiento de alergias, infecciones y otros problemas de la piel que afectan a tu compañero en el clima de Bizkaia.",
   },
   {
     icon: Syringe,
     title: "Urgencias 24h",
-    description: "Atención inmediata para cualquier emergencia. Estamos disponibles 24/7 para cuidar de tu mascota.",
+    description: "Atención inmediata para cualquier emergencia veterinaria en Mungia. Estamos disponibles 24/7 para cuidar de tu mascota.",
   },
+  {
+    icon: Rabbit,
+    title: "Animales Exóticos",
+    description: "Somos tu centro de referencia en Mungialdea para el cuidado de conejos, cobayas, hurones y otras pequeñas mascotas.",
+  }
 ];
 
 const Services = () => {
@@ -36,12 +41,12 @@ const Services = () => {
     <section id="servicios" className="py-16 md:py-24 bg-background">
       <div className="container">
         <div className="max-w-2xl mx-auto text-center mb-12">
-          <h2 className="font-headline text-4xl md:text-5xl font-bold">Nuestros Servicios</h2>
+          <h2 className="font-headline text-4xl md:text-5xl font-bold">Servicios Veterinarios en Mungia</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Ofrecemos un cuidado integral y personalizado para cada etapa de la vida de tu mascota.
+            Ofrecemos un cuidado integral y personalizado para cada etapa de la vida de tu mascota, desde cachorros hasta geriatría.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="flex flex-col text-center items-center p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
               <CardHeader className="p-0">
