@@ -6,18 +6,18 @@ export interface Review {
 
 export const reviews: Review[] = [
   {
-    name: "Laura M.",
-    review: "Un trato inmejorable tanto para mi perro como para mí. La Dra. Ana es una profesional increíble, se nota que ama su trabajo. ¡Gracias por todo!",
+    name: "Raúl Rojo",
+    review: "Muy buenos profesionales, personas cercanas y muy preparadas. Mis bichitos tienen segunda casa donde los cuidaran como en ningún otro sitio. Gracias por cuidarlos tan bien.",
     stars: 5,
   },
   {
-    name: "Javier S.",
-    review: "Llevé a mi gato y la atención fue rápida y muy eficaz. El equipo me mantuvo informado en todo momento. Totalmente recomendables.",
+    name: "Eider E",
+    review: "Sitio recomendable al 200%. Ainare ya fue la veterinaria de Lau hace años y ahora que vuelve a estar cerca llevamos a todos nuestros animales. El trato es inmejorable.",
     stars: 5,
   },
   {
-    name: "Elena G.",
-    review: "La mejor clínica veterinaria de la zona. Son amables, profesionales y muy claros con los diagnósticos. Se han convertido en nuestros veterinarios de confianza.",
+    name: "Maite Roncero Corchado",
+    review: "La sensibilidad de estas chicas con los animales sencillamente no tiene nombre. Llevé a Dulce después de un pronóstico horrible de insuficiencia renal y el trato fue excepcional.",
     stars: 5,
   },
 ];
