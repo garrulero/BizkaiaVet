@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Service } from "./services-data";
+import { TestTube } from "lucide-react";
 
 interface ServiceCardProps {
     service: Service;
