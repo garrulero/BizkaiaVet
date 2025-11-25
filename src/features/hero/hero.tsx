@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button asChild size="lg" className="text-lg">
             <Link href="#citas">
-              Pedir Cita Online
+              Pedir Cita
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>

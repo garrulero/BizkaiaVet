@@ -53,7 +53,7 @@ export default function Booking() {
     <section id="citas" className="py-16 md:py-24 bg-background">
       <div className="container">
         <div className="max-w-2xl mx-auto text-center mb-12">
-          <h2 className="font-headline text-4xl md:text-5xl font-bold">Pide tu Cita Online</h2>
+          <h2 className="font-headline text-4xl md:text-5xl font-bold">Pide tu Cita</h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Rellena tus datos y te redirigiremos a WhatsApp para que puedas enviarnos tu solicitud de cita de forma rápida y sencilla.
           </p>
