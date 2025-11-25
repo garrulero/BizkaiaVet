@@ -77,10 +77,10 @@ export default function Header() {
         </Sheet>
         
         <div className="flex flex-1 items-center justify-end space-x-2">
-           <Button asChild variant="destructive" className="animate-pulse">
+           <Button asChild>
             <Link href="tel:+34000000000">
               <Phone className="mr-2 h-4 w-4" />
-              URGENCIAS 24H
+              Llámanos
             </Link>
           </Button>
         </div>

@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Stethoscope, HeartPulse, Microscope, Syringe, Rabbit } from "lucide-react";
+import { Stethoscope, HeartPulse, Microscope, Rabbit } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 interface Service {
@@ -25,11 +25,6 @@ const services: Service[] = [
     description: "Diagnóstico y tratamiento de alergias, infecciones y otros problemas de la piel que afectan a tu compañero en el clima de Bizkaia.",
   },
   {
-    icon: Syringe,
-    title: "Urgencias 24h",
-    description: "Atención inmediata para cualquier emergencia veterinaria en Mungia. Estamos disponibles 24/7 para cuidar de tu mascota.",
-  },
-  {
     icon: Rabbit,
     title: "Animales Exóticos",
     description: "Somos tu centro de referencia en Mungialdea para el cuidado de conejos, cobayas, hurones y otras pequeñas mascotas.",
@@ -46,7 +41,7 @@ const Services = () => {
             Ofrecemos un cuidado integral y personalizado para cada etapa de la vida de tu mascota, desde cachorros hasta geriatría.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="flex flex-col text-center items-center p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
               <CardHeader className="p-0">

@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto px-4">
         <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold leading-tight drop-shadow-lg">
-          Clínica Veterinaria en Mungia: Especialistas y Urgencias 24h
+          Clínica Veterinaria en Mungia: Cuidamos de tu Mascota
         </h1>
         <p className="mt-4 text-lg md:text-xl max-w-2xl text-slate-200 drop-shadow">
           Tu centro veterinario de confianza en Mungialdea. Cuidado integral para perros, gatos y animales exóticos.

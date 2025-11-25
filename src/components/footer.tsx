@@ -58,7 +58,6 @@ const Footer = () => {
                 <li><strong>Lunes - Viernes:</strong> 9:00 - 20:00</li>
                 <li><strong>Sábados:</strong> 10:00 - 14:00</li>
                 <li><strong>Domingos:</strong> Cerrado</li>
-                <li className="pt-2"><strong className="text-destructive">Urgencias:</strong> 24 horas</li>
             </ul>
           </div>
         </div>
